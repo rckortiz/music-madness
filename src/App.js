@@ -14,7 +14,7 @@ class App extends Component {
           <Route exact path="/" component={Homepage}></Route>
           <Route exact path="/Revocation" component={Revocation}></Route>
           <Route exact path="/Radiohead" component={Radiohead}></Route>
-          <Route exact path="/pinkFloyd" component={PinkFloyd}></Route>
+          <Route exact path="/PinkFloyd" component={PinkFloyd}></Route>
         </Switch>
       </Router>
     )

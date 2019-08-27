@@ -6,10 +6,12 @@ class Revocation extends Component {
   render() {
     return (
       <>
-        <h1>This is Revocation</h1>
-        <Nav />
+        <section className="main-container">
+          <h1>This is Revocation</h1>
+          <Nav />
 
-        <img src={Revo}></img>
+          <img src={Revo}></img>
+        </section>
       </>
     )
   }

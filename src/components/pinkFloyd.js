@@ -10,7 +10,7 @@ class PinkFloyd extends Component {
         <h1>This is Pink Floyd</h1>
         <Nav />
 
-        <section>
+        <section className="p-floyd-container">
           <img src={Pfloyd}></img>
         </section>
       </>

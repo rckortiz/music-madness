@@ -6,12 +6,16 @@ class Radiohead extends Component {
   render() {
     return (
       <>
-        <h1>This is Radiohead</h1>
-        <Nav />
-        <img src={Radio}></img>
-        <section classNam>
-          <q></q>
-        </section>
+        <main className="radio-main">
+          <section className="radio-container">
+            <h1>This is Radiohead</h1>
+            <Nav />
+            <img src={Radio}></img>
+            <section classNam>
+              <q></q>
+            </section>
+          </section>
+        </main>
       </>
     )
   }
